@@ -31,13 +31,13 @@ function NavTabs({ currentPage, handlePageChange }) { //Navtabs function with cu
       </li>
       <li className="nav-item">
         <a
-          href="#blog"
+          href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
           //  TODO: Add a comment explaining what this logic is doing
 
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          Blog
+          Portfolio
         </a>
       </li>
       <li className="nav-item">
@@ -49,6 +49,18 @@ function NavTabs({ currentPage, handlePageChange }) { //Navtabs function with cu
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
+        </a>
+      </li>
+       <li className="nav-item">
+
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          //  TODO: Add a comment explaining what this logic is doing
+
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
         </a>
       </li>
     </ul>
