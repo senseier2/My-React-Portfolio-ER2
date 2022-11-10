@@ -1,12 +1,10 @@
 import React from 'react';
 
-export default function About() {
+
+export default function Footer() {
   return (
     <div>
-        <h4>
-            Thank you for visiting my portfolio, Please feel free to contact me via any of my Social Media stuffs.
-        </h4>
-        
+      <p>this is my footer</p>
     </div>
   );
 }
